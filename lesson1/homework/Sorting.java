@@ -40,7 +40,7 @@ class Sorting {
 				sort(humanArray);
 
 				for (int i=0; i < humanArray.length; i++) {
-					System.out.println(humanArray[i].averageMark);
+					System.out.println(humanArray[i].name + " " + humanArray[i].averageMark);
 				}
 		}
 				private static int heapSize;
