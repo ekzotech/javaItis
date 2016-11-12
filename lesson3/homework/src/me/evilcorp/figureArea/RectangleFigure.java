@@ -1,12 +1,13 @@
 package me.evilcorp.figureArea;
 
 /**
+ * class to calc rectangle area
  * Created by ekzotech on 12.11.16.
  */
 public class RectangleFigure extends Figure implements Areable {
 
-    double rectangleFirstSide = 0.0;
-    double rectangleSecondSide = 0.0;
+    private double rectangleFirstSide = 0.0;
+    private double rectangleSecondSide = 0.0;
 
     public RectangleFigure(int x, int y, double firstSide, double secondSide) {
         super(x, y);

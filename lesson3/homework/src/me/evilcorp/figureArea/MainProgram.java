@@ -1,9 +1,10 @@
 package me.evilcorp.figureArea;
 
 /**
+ * main class for all project
  * Created by ekzotech on 12.11.16.
  */
-public class MainProgram {
+class MainProgram {
     public static void main(String[] args) {
 
         CircleFigure circle1 = new CircleFigure(1, 1, 3.0);

@@ -1,10 +1,11 @@
 package me.evilcorp.figureArea;
 
 /**
+ * class to calc circle area
  * Created by ekzotech on 12.11.16.
  */
 public class CircleFigure extends Figure implements Areable {
-    double circleRadius = 0.0;
+    private double circleRadius = 0.0;
 
     public CircleFigure(int x, int y, double radius) {
         super(x, y);
@@ -13,7 +14,7 @@ public class CircleFigure extends Figure implements Areable {
 
     @Override
     public double getArea() {
-        double result = 0.0;
+        double result;
         result = 2 * 3.14 * (circleRadius * circleRadius);
         return result;
     }
