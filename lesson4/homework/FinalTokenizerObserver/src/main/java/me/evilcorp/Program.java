@@ -15,8 +15,8 @@ public class Program {
         String text = bufferedReader.readLine();
 
         TokenizerObservable tokenizerObservable = new Tokenizer();
-        tokenizerObservable.addTokenHandler(new TokenHandlerLettersImpl());
         tokenizerObservable.addTokenHandler(new TokenHandlerNumbersImpl());
+        tokenizerObservable.addTokenHandler(new TokenHandlerLettersImpl());
         tokenizerObservable.addTokenHandler(new TokenHandlerSeparatorImpl());
 
         tokenizerObservable.tokenize(text);

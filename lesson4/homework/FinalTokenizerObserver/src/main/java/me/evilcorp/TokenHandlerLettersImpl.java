@@ -15,6 +15,6 @@ public class TokenHandlerLettersImpl implements TokenHandler {
     }
 
     public String getName() {
-        return "LetterHanlder";
+        return "LetterHandler";
     }
 }

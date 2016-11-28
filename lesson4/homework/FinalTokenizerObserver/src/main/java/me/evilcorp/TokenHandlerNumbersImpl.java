@@ -1,6 +1,7 @@
 package me.evilcorp;
 
 import me.evilcorp.observer.TokenHandler;
+import me.evilcorp.tokens.Number;
 import me.evilcorp.tokens.Token;
 
 /**
@@ -8,6 +9,7 @@ import me.evilcorp.tokens.Token;
  */
 public class TokenHandlerNumbersImpl implements TokenHandler {
     public void handleToken(Token token) {
+//        System.out.println(token.getClass().getSimpleName().equals(Number.class.getSimpleName()));
         if (token.getClass().getName().equals(Number.class.getName())) {
             System.out.println("из: " + getName() + " : Йа циферко! " + token);
         }
